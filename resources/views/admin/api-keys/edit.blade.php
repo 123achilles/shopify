@@ -12,5 +12,5 @@
         <h1 class="my-h1">api-key edit</h1>
     </div>
 
-    @include('admin.api-keys.partials.form.blade.php')
+    @include('admin.api-keys.partials.form',[$item])
 @endsection

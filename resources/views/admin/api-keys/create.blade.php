@@ -9,8 +9,7 @@
         </a>
     </div>
     <div class="mt-4">
-        <h1 class="my-h1">api-key creat</h1>
+        <h1 class="my-h1">api-key create</h1>
     </div>
-
-    @include('admin.api-keys.partials.form.blade.php')
+    @include('admin.api-keys.partials.form')
 @endsection

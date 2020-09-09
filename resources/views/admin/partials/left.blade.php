@@ -18,6 +18,7 @@
                 <li><a href="{{route('admin.api-keys')}}"> <i class="fa fa-wrench"></i>settings</a></li>
 
                 <li><a href="{{route('home')}}"><i class="fa fa-align-left"></i>Integrator</a></li>
+                <li><a href="{{route('admin.install3',['limit'=>250])}}"><i class="fa fa-align-left"></i>doty all products</a></li>
 {{--                <li><a href="{{route('admin.user.index')}}"><i class="fa fa-users"></i>{{__('global.left.users')}}</a></li>--}}
 {{--                --}}{{--<li><a href="{{route('admin.city.index')}}"><i class="fa fa-building"></i>{{__('global.left.cities')}}</a></li>--}}
 {{--                <li><a href="{{route('admin.lara-articles.index')}}"><i class="fa fa-building"></i>{{__('global.left.articles')}}</a></li>--}}
